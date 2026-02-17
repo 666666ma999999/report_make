@@ -1,0 +1,20 @@
+# 機密データ - 元データ（xlsx/csv）
+boradmtg/csv/
+
+# 生成レポート
+boradmtg/月次報告_*.xlsx
+boradmtg/*_202*.csv
+
+# Excel一時ファイル
+~$*
+.~lock.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
